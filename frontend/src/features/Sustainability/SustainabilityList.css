@@ -1,0 +1,53 @@
+/* src/features/Sustainability/SustainabilityList.css */
+
+.sustainability-list {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sustainability-list h2 {
+    color: #333;
+}
+
+.sustainability-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sustainability-list li {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: box-shadow 0.3s ease;
+}
+
+.sustainability-list li:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.sustainability-list h3 {
+    color: #555;
+    margin: 0;
+}
+
+.sustainability-list p {
+    color: #777;
+    margin: 5px 0 0;
+}
+
+.sustainability-list button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sustainability-list button:hover {
+    background-color: #45a049;
+}
