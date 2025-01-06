@@ -1,0 +1,45 @@
+/* src/features/EducationalContent/EducationalArticle.css */
+
+.educational-article {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.educational-article h2 {
+    color: #333;
+}
+
+.educational-article ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.educational-article li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.educational-article li h3 {
+    margin: 0;
+    color: #007BFF;
+}
+
+.educational-article li p {
+    color: #777;
+    margin: 5px 0 0;
+}
+
+.educational-article button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.educational-article button:hover {
+    background-color: #45a049;
+}
