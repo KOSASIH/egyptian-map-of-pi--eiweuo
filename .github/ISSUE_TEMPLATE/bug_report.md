@@ -1,9 +1,10 @@
 ---
 name: Bug Report
 about: Create a standardized bug report for the Egyptian Map of Pi application
-title: '[Bug] <component>: <short_description>'
-labels: ['bug', 'needs-triage', 'pi-network', 'egyptian-market']
-assignees: ['@tech-leads', '@qa-team', '@pi-integration-team', '@egyptian-compliance-team']
+title: "[Bug] <component>: <short_description>"
+labels: ''
+assignees: ''
+
 ---
 
 <!-- Please complete all required sections in both English and Arabic -->

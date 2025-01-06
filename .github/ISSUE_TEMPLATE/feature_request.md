@@ -1,9 +1,10 @@
 ---
 name: Feature Request
 about: Propose a new feature for the Egyptian Map of Pi platform
-title: '[Feature] component: short_description'
-labels: feature-request, needs-review, pi-integration, egyptian-market
-assignees: '@product-team, @tech-leads, @pi-integration-team, @egyptian-compliance-team'
+title: "[Feature] component: short_description"
+labels: ''
+assignees: ''
+
 ---
 
 <!-- 
