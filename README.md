@@ -1,7 +1,7 @@
 # Egyptian Map of Pi
 
-[![Build Status](https://github.com/owner/repo/actions/workflows/main.yml/badge.svg)](https://github.com/owner/repo/actions/workflows/main.yml)
-[![Test Coverage](https://codecov.io/gh/owner/repo/branch/main/graph/badge.svg)](https://codecov.io/gh/owner/repo)
+[![Build Status](https://github.com/KOSASIH/repo/actions/workflows/main.yml/badge.svg)](https://github.com/KOSASIH/repo/actions/workflows/main.yml)
+[![Test Coverage](https://codecov.io/gh/KOSASIH/repo/branch/main/graph/badge.svg)](https://codecov.io/gh/owner/repo)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/Version-1.0.0-green.svg)](CHANGELOG.md)
 
@@ -53,7 +53,7 @@ For detailed architecture diagrams, see the [Technical Documentation](docs/techn
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/owner/egyptian-map-of-pi.git
+git clone https://github.com/KOSASIH/egyptian-map-of-pi.git
 cd egyptian-map-of-pi
 ```
 
