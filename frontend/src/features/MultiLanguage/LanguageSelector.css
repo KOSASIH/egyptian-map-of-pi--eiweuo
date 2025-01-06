@@ -1,0 +1,17 @@
+/* src/features/MultiLanguage/LanguageSelector.css */
+
+.language-selector {
+    margin: 20px 0;
+}
+
+.language-selector label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.language-selector select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
