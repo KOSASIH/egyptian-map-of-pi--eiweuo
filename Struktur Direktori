@@ -1,0 +1,14 @@
+/multi-region
+   ├── app/
+   │   ├── controllers/
+   │   │   └── regionController.js
+   │   ├── services/
+   │   │   └── regionService.js
+   │   └── index.js
+   ├── config/
+   │   ├── awsConfig.js
+   │   └── regionConfig.js
+   └── package.json
+
+
+---
