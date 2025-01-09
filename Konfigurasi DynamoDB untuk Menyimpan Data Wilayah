@@ -1,0 +1,43 @@
+Gunakan AWS CLI untuk membuat tabel DynamoDB:
+
+aws dynamodb create-table \
+  --table-name MarketplaceRegions \
+  --attribute-definitions AttributeName=RegionID,AttributeType=S \
+  --key-schema AttributeName=RegionID,KeyType=HASH \
+  --provisioned-throughput ReadCapacityUnits=5,WriteCapacityUnits=5 \
+  --region me-south-1
+
+
+---
+
+Cara Kerja
+
+1. Wilayah Dinamis:
+
+Data wilayah diambil berdasarkan wilayah yang dipilih pengguna (/regions).
+
+Berdasarkan latensi, wilayah terbaik dipilih untuk melayani permintaan pengguna (/distribute).
+
+
+
+2. Pengelolaan Beban:
+
+Layanan Redis (opsional) dapat digunakan untuk caching hasil distribusi beban.
+
+
+
+3. Skalabilitas:
+
+Arsitektur ini mendukung penambahan wilayah baru hanya dengan memperbarui regionConfig.js.
+
+
+
+4. Real-Time Switching:
+
+Latensi wilayah dihitung di klien atau gateway API, lalu dikirim ke backend.
+
+
+
+
+
+---
